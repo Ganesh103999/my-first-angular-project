@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #222; /* Dark background for the heading container */
+  background-color: #df7c7c; /* Dark background for the heading container */
   padding: 15px;
   border-radius: 10px;
 }
