@@ -1,7 +1,30 @@
-.header-box {
-    background-color: brown;
-    cursor: pointer;
-    padding: 20px;
-    border: 1px solid #000;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  }
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222; /* Dark background for the heading container */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.left-heading {
+  color: blue;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.right-heading {
+  color: red;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

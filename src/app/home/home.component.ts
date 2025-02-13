@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+  headline = 'Welcome to my first Angular App!';
+    signalMessage = signal('Hello, World!');
+
+ 
+  changeMessage(){
+    console.log('changeMessge called');
+    //  
+    this.headline='You clicked the button!';
+  }
 
 }
