@@ -1,0 +1,7 @@
+.header-box {
+    background-color: brown;
+    cursor: pointer;
+    padding: 20px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
