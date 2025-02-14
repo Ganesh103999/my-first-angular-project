@@ -13,7 +13,7 @@ export class HomeComponent {
  
   changeMessage(){
     console.log('changeMessge called');
-    //
+    
     this.headline='You clicked the button!';
   }
 

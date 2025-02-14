@@ -1,5 +1,41 @@
-div {
-    margin: auto;
-    width: 50%;
-    text-align: center;
+.container {
+    width: 95%;
+    background: linear-gradient(to bottom, #a0c4cf, #6e8c97); /* Matching background gradient */
+    padding: 80px;
+    border-bottom: 2px solid black; /* Adds separation effect */
 }
+
+.content {
+    width: auto;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+
